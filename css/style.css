@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html {
+	scroll-behavior: smooth;
+
+}
+
+body {
+font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+		border-bottom: 2px solid #846227;
+}
+
+.nav-link {
+
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
+
+@media (min-width: 992px) {
+	
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: space-between!important;
+}
+}
+
+
+
+
