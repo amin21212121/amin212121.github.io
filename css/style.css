@@ -56,7 +56,11 @@ padding: 0px 5px;
     margin-left: auto;
 }
 
-.marketing .col-md-5 {
+.featurette-heading {
+		text-align: center;
+}
+
+.marketing .col-md-6 {
 	align-self: center;
 }
 
