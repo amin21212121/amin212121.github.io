@@ -48,6 +48,13 @@ opacity: 1;
 padding: 0px 5px;
 }
 
+.container-fluid {
+    width: 100%;
+   padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .marketing .col-md-5 {
 	align-self: center;
@@ -64,6 +71,11 @@ background: #F5E0B7 0% 0% no-repeat padding-box;
 border: 1px solid #846227;
 opacity: 1;
     width: 30%;
+}
+
+.other-product {
+	    display: flex;
+    justify-content: flex-end;
 }
 
 
