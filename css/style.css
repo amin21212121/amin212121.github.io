@@ -143,14 +143,32 @@ opacity: 1;
 
 footer {
 	background-color: #F5E0B7;
+	padding: 45px 0px 20px 0px;
 }
 
 footer .col-lg-3 {
 	    align-self: center;
+		text-align: center;
+		
 }
 
-footer .col-md-6 {
+footer .col-lg-6 {
 	    align-self: center;
+		text-align: center;
+}
+
+.foot-link {
+	color: #846227;
+	padding: 0px 10px;
+}
+
+.socialicon {
+	display: flex;
+	justify-content: center;
+}
+
+.socialicon img {
+	margin: 12px 10px;
 }
 
 
