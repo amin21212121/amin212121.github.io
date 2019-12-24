@@ -116,6 +116,10 @@ border: 2px solid #846227;
 }
 
 
+div.container-fluid.history .col-md-6 {
+	align-self: center;
+}
+
 .clients .tittle {
 	    margin-left: auto;
     margin-right: auto;
@@ -129,11 +133,13 @@ opacity: 1;
     padding: 10px 0px;
 }
 
-.other-product {
+.our-clinets {
 	    display: flex;
     justify-content: space-around;
 	margin: 40px 0px;
 }
+
+
 
 
 
