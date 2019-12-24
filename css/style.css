@@ -48,6 +48,14 @@ opacity: 1;
 padding: 0px 5px;
 }
 
+.firstblock {
+	padding: 0px 0px 0px 60px;
+}
+
+.secondlock {
+padding: 0px 60px 0px 0px;
+}
+
 .container-fluid {
     width: 100%;
    padding-right: 15px;
@@ -112,13 +120,25 @@ opacity: 1;
 
 .history {
 	
-border: 2px solid #846227;
+border-right: 2px solid #846227;
+border-top: 2px solid #846227;
+border-bottom: 2px solid #846227;
 }
 
 
 div.container-fluid.history .col-md-6 {
 	align-self: center;
+	padding-left: 0px;
 }
+
+div.container-fluid.history .col-md-6 p {
+	padding: 0px 100px;
+}
+
+div.container-fluid.history .col-md-6 b {
+	font-weight: bold;
+}
+
 
 .clients .tittle {
 	    margin-left: auto;
