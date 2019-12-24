@@ -136,12 +136,22 @@ opacity: 1;
 .our-clinets {
 	    display: flex;
     justify-content: space-around;
-	margin: 40px 0px;
+	margin: 70px 0px;
+	align-items: center;
 }
 
 
+footer {
+	background-color: #F5E0B7;
+}
 
+footer .col-lg-3 {
+	    align-self: center;
+}
 
+footer .col-md-6 {
+	    align-self: center;
+}
 
 
 @media (min-width: 992px) {
