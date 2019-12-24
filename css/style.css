@@ -56,6 +56,8 @@ padding: 0px 5px;
 padding: 0px 200px 0px 0px;
 }
 
+
+
 .container-fluid {
     width: 100%;
    padding-right: 15px;
@@ -67,6 +69,16 @@ padding: 0px 200px 0px 0px;
 .featurette-heading {
 		text-align: center;
 }
+
+body > div.container-fluid.marketing > div.row.featurette > div:nth-child(1) > p {
+padding: 0px 50px;
+text-indent: 1.5em;
+}
+
+body > div.container-fluid.marketing > div.row.other-product > div:nth-child(1) > div > span {
+	position: absolute;
+}
+
 
 .marketing .col-md-6 {
 	align-self: center;
@@ -137,7 +149,11 @@ div.container-fluid.history .col-md-6 {
 
 div.container-fluid.history .col-md-6 p {
 	padding: 0px 100px;
+	text-indent: 1.5em;
+	text-align: justify;
 }
+
+
 
 div.container-fluid.history .col-md-6 b {
 	font-weight: bold;
