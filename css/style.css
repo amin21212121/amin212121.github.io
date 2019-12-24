@@ -157,10 +157,12 @@ footer .col-lg-6 {
 		text-align: center;
 }
 
-.foot-link {
+.foot-link, .foot-link a {
 	color: #846227;
 	padding: 0px 10px;
+	font-weight: 700;
 }
+
 
 .socialicon {
 	display: flex;
@@ -169,6 +171,15 @@ footer .col-lg-6 {
 
 .socialicon img {
 	margin: 12px 10px;
+}
+
+.btn-footer {
+	background-color: #846227;
+	color: #F5E0B7;
+}
+
+.rightblock .foot-link {
+	    padding: 0px 0px 17px 0px
 }
 
 
