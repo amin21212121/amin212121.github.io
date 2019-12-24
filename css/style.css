@@ -86,8 +86,12 @@ opacity: 1;
 }
 
 .other-product {
-	    display: flex;
-    justify-content: flex-end;
+margin-top: 7px;
+}
+
+.other-product .col-md-6 {
+display: flex;
+justify-content: space-between;
 }
 
 .positive .col-lg-4 {
