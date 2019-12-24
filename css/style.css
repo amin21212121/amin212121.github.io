@@ -73,6 +73,8 @@ padding: 0px 200px 0px 0px;
 body > div.container-fluid.marketing > div.row.featurette > div:nth-child(1) > p {
 padding: 0px 50px;
 text-indent: 1.5em;
+text-align: justify;
+margin: 0px;
 }
 
 body > div.container-fluid.marketing > div.row.other-product > div:nth-child(1) > div > span {
@@ -86,7 +88,9 @@ body > div.container-fluid.marketing > div.row.other-product > div:nth-child(1) 
 
 .btnclasssecondblock{
 	display: flex;
-    justify-content: space-around;
+    justify-content: center;
+	margin-top: 40px;
+	
 }
 
 
@@ -95,6 +99,7 @@ background: #F5E0B7 0% 0% no-repeat padding-box;
 border: 1px solid #846227;
 opacity: 1;
     width: 30%;
+	margin: 0px 10px
 }
 
 .other-product {
@@ -195,6 +200,11 @@ footer .col-lg-3 {
 footer .col-lg-6 {
 	    align-self: center;
 		text-align: center;
+}
+
+footer .row {
+	margin-right: 0px;
+    margin-left: -15px;
 }
 
 .foot-link, .foot-link a {
