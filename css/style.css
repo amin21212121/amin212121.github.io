@@ -11,6 +11,7 @@ font-family: 'Oswald', sans-serif;
 
 .navbar {
 		border-bottom: 2px solid #846227;
+		border-radius: 0px!important;
 }
 
 .nav-link {
@@ -49,11 +50,11 @@ padding: 0px 5px;
 }
 
 .firstblock {
-	padding: 0px 0px 0px 200px;
+	padding: 0px 0px 0px 50px;
 }
 
 .secondlock {
-padding: 0px 200px 0px 0px;
+padding: 0px 50px 0px 0px;
 }
 
 
@@ -84,6 +85,11 @@ body > div.container-fluid.marketing > div.row.other-product > div:nth-child(1) 
 
 .marketing .col-md-6 {
 	align-self: center;
+}
+
+
+body > div.container-fluid.marketing > div.row.other-product > div:nth-child(1) {
+	padding-right: 0px;
 }
 
 .btnclasssecondblock{
@@ -244,6 +250,13 @@ footer .row {
 }
 }
 
+#myVideo {
+ 
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
