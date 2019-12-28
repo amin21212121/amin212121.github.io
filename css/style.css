@@ -14,6 +14,10 @@ font-family: 'Oswald', sans-serif;
 		border-radius: 0px!important;
 }
 
+.bg-light {
+    background-color: #fff!important;
+}
+
 .nav-link {
 	font-size: 16px;
 font-weight: bold;
