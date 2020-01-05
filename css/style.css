@@ -54,11 +54,19 @@ padding: 0px 5px;
 }
 
 .firstblock {
-	padding: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 46px;
 }
 
 .secondlock {
-padding: 0px 50px 0px 0px;
+padding: 0px 46px 0px 0px;
+}
+
+#navbarsExample09 > div.secondlock > ul > li:nth-child(2) > a {
+	margin: 0px 50px;
+}
+
+#navbarsExample09 > div.firstblock > ul > li:nth-child(3) > a {
+	margin: 0px 50px;	
 }
 
 body > div.container-fluid.marketing > div.row.other-product > div:nth-child(2) {
