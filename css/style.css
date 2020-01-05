@@ -267,7 +267,7 @@ footer .row {
 }
 
 #myVideo {
- 
+
   right: 0;
   bottom: 0;
   width: 100%;
@@ -276,7 +276,7 @@ footer .row {
 
 #myVideo_about_us{
  
-
+ margin-top: 5px;
     width: 90%;
     margin-left: auto;
     height: 100%;
@@ -332,4 +332,69 @@ body > div.container.about_us_descr > div:nth-child(2) {
 }
 
 
+.maps {
+    margin: 5px auto;
+    display: block;
+}
+.contact_placeholder{
+margin-top: 20px;
+border-bottom: 2px solid #846227;
+}
 
+.contact_placeholder .col-4{
+text-align: center;
+}
+.contact_placeholder .row{
+justify-content: space-evenly;
+}
+.contact_placeholder h2{
+	padding-top: 5px;
+	font-size: 20px;
+letter-spacing: 0.07px;
+color: #707070;
+
+}
+.contact_placeholder p{
+font-size: 16px;
+letter-spacing: 0.06px;
+color: #000000;
+font-weight: 900;
+}
+
+body > div.contact_placeholder > div:nth-child(2) {
+	align-items: flex-end;
+	    margin-top: 40px;
+}
+
+body > div.contact_placeholder > div:nth-child(2) p {
+	   padding-top: 5px;
+}
+
+.contact_msg {
+	margin: 40px auto;
+	    text-align: center;
+}
+.write_me {
+	text-align: center;
+	color: #707070;
+letter-spacing: 0.22px;
+}
+
+.write_me h2 {
+	margin: 22px 0px;
+}
+
+body > div.write_me > h2:nth-child(3) {
+	margin-top: 60px;
+}
+
+.btn-contactblck {
+    background: #F5E0B7 0% 0% no-repeat padding-box;
+    border: 1px solid #846227;
+    opacity: 1;
+    width: 15%;
+    margin: 0px 10px;
+	font-size: 20px;
+	color: #846227;
+
+}
