@@ -85,6 +85,12 @@ body > div.container-fluid.marketing > div.row.other-product > div:nth-child(2) 
 		text-align: center;
 }
 
+body > div.container-fluid.marketing img:hover {
+cursor: pointer;
+transition: box-shadow 0.5s;
+box-shadow: 0px 0px 17px 0px;
+}
+
 body > div.container-fluid.marketing > div.row.featurette > div:nth-child(1) > p {
 padding: 0px 50px;
 text-indent: 1.5em;
