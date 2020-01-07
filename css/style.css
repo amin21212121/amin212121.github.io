@@ -556,8 +556,31 @@ background-color: #00000087;
     color: #fff;
     font-size: 36px;
     text-align: center;
+transition: height 1s linear;
 
 	border-radius: .25rem;
+}
+
+.coffehover {
+
+
+    background-color: #00000087;
+    z-index: 100;
+
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+	
+	height: 100%;
+    border-radius: .25rem;
+transition: background 1s ease;
+
+
+
+
 }
 
 

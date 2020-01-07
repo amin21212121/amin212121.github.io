@@ -41,4 +41,20 @@ window.scrollTo(scrollPosition[0], scrollPosition[1])
 );
 
 
+$('#coffe, #cofee2').hover( function() {
+$('#cofee2').removeClass('coffe').toggle();	
+$('#cofee2').addClass('coffehover').toggle();	   
+
+}) 
+
+
+$('#coffe, #cofee2').mouseout( function() {
+$('#cofee2').removeClass('coffehover');
+$('#cofee2').addClass('coffe');	
+	   
+
+}) 
+
+
+
 
