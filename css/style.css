@@ -584,3 +584,54 @@ transition: background 1s ease;
 }
 
 
+
+.partners_our-clinets {
+	display: flex;
+    justify-content: space-between;
+	margin: 30px 0px;
+	flex-flow: wrap;
+	align-items: center;
+	max-width: 1140px;
+	    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.partners_descr {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.partners_descr h2 {
+	font-size: 26px;
+	text-align: left;
+letter-spacing: 0;
+color: #707070;
+}
+
+.partners_descr p, .partners_descr li {
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 0;
+	padding: 10px 0px;
+}
+.partners_descr span {
+	color: #707070;
+}
+
+
+.partners_descr li {
+	list-style: none; 
+  padding-left: 16px;
+}
+
+.partners_descr li:before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: #F5E0B7; /* Or a color you prefer */
+  font-size: 18px;
+}
+
+
